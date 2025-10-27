@@ -25,3 +25,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore images and videos for now
+/public/images
+/public/videos
+*.mp4
+*.mov
