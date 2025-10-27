@@ -1,6 +1,7 @@
-import { footerLogos, img10s, img11s, img12s, img13s, img14s, img15s, img16s, img17s, img18s, img19s, img1s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s, vid2s } from "lib/imageHelper";
+import { footerLogos, img10s, img11s, img12s, img13s, img14s, img15s, img16s, img17s, img18s, img19s, img1s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s, vid2s, vid3s } from "lib/imageHelper";
 import svgPaths from "./svg-90vfomlenu";
 import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -52,7 +53,7 @@ function Group427319870() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[15917px] rounded-[10px]">
       <div className="absolute h-[395.931px] left-1/2 -translate-x-1/2 top-[15917px] w-[1200px] rounded-[10px]" data-name="VENDORS">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img13s.sag} />
+        <Image alt="" fill className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img13s.sag} />
       </div>
     </div>
   );
@@ -62,7 +63,7 @@ function Group427319871() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[16411px] rounded-[10px]">
       <div className="absolute h-[355.965px] left-1/2 -translate-x-1/2 top-[16411px] w-[1200px] rounded-[10px]" data-name="PURCHASE ORDER">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px] top-0" src={img14s.sag} />
+        <Image alt="" fill className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px] top-0" src={img14s.sag} />
       </div>
     </div>
   );
@@ -72,7 +73,7 @@ function Group427319875() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[19375px] rounded-[10px]">
       <div className="absolute h-[400.965px] left-1/2 -translate-x-1/2 top-[19375px] w-[1200.576px] rounded-[10px]" data-name="PURCHASE ORDER">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px] rounded-[10px]" src={img18s.sag} />
+        <Image alt="" fill className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px] rounded-[10px]" src={img18s.sag} />
       </div>
     </div>
   );
@@ -82,7 +83,7 @@ function Group427319876() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[19869px]">
       <div className="absolute h-[355.965px] left-1/2 -translate-x-1/2 top-[19869px] w-[1200.576px]" data-name="PURCHASE ORDER CREATE">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img19s.sag} />
+        <Image alt="" fill className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img19s.sag} />
       </div>
     </div>
   );
@@ -92,7 +93,7 @@ function Group427319874() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[18485px]">
       <div className="absolute h-[800.965px] left-1/2 -translate-x-1/2 top-[18485px] w-[1200.576px]" data-name="PURCHASE ORDER CREATE">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img17s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img17s.sag} />
       </div>
     </div>
   );
@@ -102,7 +103,7 @@ function Group427319872() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[16905px] rounded-[10px]">
       <div className="absolute h-[800.922px] left-1/2 -translate-x-1/2 top-[16905px] w-[1200.515px] rounded-[10px]" data-name="INVOICES">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img15s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img15s.sag} />
       </div>
     </div>
   );
@@ -112,7 +113,7 @@ function Group427319873() {
   return (
     <div className="absolute contents left-1/2 -translate-x-1/2 top-[17795px] rounded-[10px]">
       <div className="absolute h-[400.931px] left-1/2 -translate-x-1/2 top-[17795px] w-[1200.528px]" data-name="SAG TICKET VIEW">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img16s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full rounded-[10px]" src={img16s.sag} />
       </div>
     </div>
   );
@@ -121,17 +122,17 @@ function Group427319873() {
 function Group427319867() {
   return (
     <Link href={'/projects/nendiwe'} passHref>
-      <div className="absolute contents left-[860px] top-[20665px]">
-      <div className="absolute bg-[#191919] h-[142px] left-[945px] rounded-br-[5px] rounded-tr-[5px] top-[20665px] w-[313px]" />
-      <div className="absolute h-[142px] left-[860px] rounded-[5px] top-[20665px] w-[198px]" data-name="animation vect-02">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]">
-          <img alt="" className="absolute h-[100.11%] left-[-13.94%] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.sag} />
+        <div className="absolute contents left-1/2 -translate-x-1/2 top-[20665px]" style={{ left: "calc(50% + 100px)", transform: "translateX(-50%)" }}>
+          <div className="absolute bg-[#191919] h-[142px] rounded-br-[5px] rounded-tr-[5px] top-[20665px] w-[313px] " style={{ left: "calc(50% + 350px)", transform: "translateX(-50%)"}}/>
+          <div className="absolute h-[142px] rounded-[5px] top-[20665px] w-[198px]" data-name="sag thumbnail" style={{ left: "calc(50% + 200px)", transform: "translateX(-50%)"}}>
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]" >
+              <Image fill  alt="" className="absolute h-[100.11%] left-[0] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.sag} />
+            </div>
+          </div>
+          <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[20720px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 410px)", transform: "translateX(-50%)" }}>
+            <p className="leading-[36px] whitespace-pre">next</p>
+          </div>
         </div>
-      </div>
-      <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[20715px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 300px)", transform: "translateX(-50%)" }}>
-      <p className="leading-[36px] whitespace-pre">next</p>
-    </div>
-    </div>
     </Link>
     
   );
@@ -158,9 +159,9 @@ function Group427319885() {
 
 function Group427319857() {
   return (
-    <div className="contents pointer-events-auto sticky top-0">
-      <div className="absolute h-[84px] left-1/2 top-[86px] translate-x-[-50%] w-[1440px]">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={portfolioHeroes.sag} />
+    <div className="contents pointer-events-auto sticky top-0" style={{ left: "calc(50% + 0)", transform: "translateX(-50%)" }}>
+      <div className="absolute h-[84px] top-[86px] w-[1440px]" style={{ left: "calc(50% + 0)", transform: "translateX(-50%)" }}>
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={portfolioHeroes.sag} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#606060] text-[20px] text-nowrap text-right top-[118px] translate-x-[-100%]" style={{ left: "calc(50% + 654px)" }}>
         <p className="leading-[normal] whitespace-pre">INNOVATION AND DIGITAL</p>
@@ -181,7 +182,7 @@ function Group427319857() {
 
 function Group427319893() {
   return (
-    <div className="absolute left-0 right-0 top-[18800px]">
+    <div className="absolute left-0 right-0 top-[20900px]">
       <div className="absolute font-['IBM_Plex_Mono',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[20px] text-nowrap top-[36px]" style={{ left: "calc(50% + 499px)" }}>
         <p className="leading-[normal] whitespace-pre">© 2025. V 2.0</p>
       </div>
@@ -343,13 +344,20 @@ export default function SagProjectScreen() {
         <p className="leading-[normal]">Scenes from the build, key layouts, and final snapshots.</p>
       </div>
       <div className="absolute h-[520px] left-1/2 -translate-x-1/2 top-[2197px] w-[1076px]" data-name="Design systems 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img1s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img1s.sag} />
       </div>
-      <div className="absolute h-[1407px] left-[0px] top-[0] w-[1680px]" data-name="macboko">
-        <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-          <img alt="" className="absolute max-w-none object-50%-50% object-cover size-full" src={portfolioHeroes.sag} />
-          <div className="absolute inset-0" />
+      <div className="absolute h-[1587px] left-1/2 translate-x-[-50%] top-[0] w-[1680px] overflow-hidden">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1680px] h-[1540px]">
+          <Image 
+            fill  
+            alt="" 
+            className="absolute inset-0 w-full h-full object-cover" 
+            src={portfolioHeroes.sag} 
+          />
         </div>
+      </div>
+      <div className="absolute h-[1480px] left-1/2 translate-x-[-50%] top-[86px] w-[1840px] pointer-events-none">
+        <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-[#111111] via-[#111111]/90 to-transparent" />
       </div>
       <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] left-1/2 not-italic text-[#bfbfbf] text-[48px] text-center top-[910px] tracking-[0.96px] translate-x-[-50%] uppercase w-[900px]">
         <p className="leading-[50px]">
@@ -362,12 +370,12 @@ export default function SagProjectScreen() {
       <Group427319878 />
       <div className="absolute h-[823px] left-1/2 rounded-[10px] top-[2901px] translate-x-[-50%] w-[1076px]" data-name="WEB FLOW">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[107.7%] left-[0] max-w-none top-[0] w-[96.96%]" src={img2s.sag} />
+          <Image fill  alt="" className="absolute h-[107.7%] left-[0] max-w-none top-[0] w-[96.96%]" src={img2s.sag} />
         </div>
       </div>
       <div className="absolute h-[576px] left-1/2 translate-x-[-50%] top-[5358px] w-[1078px]" data-name="FEATURED 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[98.58%] left-[0] max-w-none top-[0] w-[96.7%]" src={img5s.sag} />
+          <Image fill  alt="" className="absolute h-[98.58%] left-[0] max-w-none top-[0] w-[96.7%]" src={img5s.sag} />
         </div>
       </div>
       <div className="absolute h-[579px] rounded-[10px] top-[4779px] translate-x-[-50%] w-[839px]" data-name="Capabilities 1" style={{ left: "calc(50% + 0.5px)" }}>
@@ -383,30 +391,41 @@ export default function SagProjectScreen() {
         </div>
       </div>
       <div className="absolute h-[1672px] left-1/2 translate-x-[-50%] top-[5998px] w-[1198px]" data-name="About 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img6s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img6s.sag} />
       </div>
       <div className="absolute h-[438px] top-[7747px] translate-x-[-50%] w-[842px]" data-name="ARTICLES 1" style={{ left: "calc(50% + 1px)" }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img7s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img7s.sag} />
       </div>
       <div className="absolute h-[960px] left-1/2 top-[8265px] translate-x-[-50%] w-[1440px]" data-name="PAGES MOCKUP 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img8s.sag} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img8s.sag} />
       </div>
       <div className="absolute h-[765px] rounded-[10px] top-[10405px] translate-x-[-50%] w-[1076px]" data-name="LOGIN 1" style={{ left: "calc(50% + 1px)" }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img9s.sag} />
+        <video 
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" 
+          src={vid3s.sag} 
+          controls={false}
+          autoPlay
+          loop
+          muted
+        />
       </div>
       <div className="absolute h-[877px] left-1/2 top-[11453px] translate-x-[-50%] w-[1092px]" data-name="Smarkers admin 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[113.11%] left-0 max-w-none top-0 w-full" src={img10s.sag} />
+          <Image fill  alt="" className="absolute h-[113.11%] left-0 max-w-none top-0 w-full" src={img10s.sag} />
         </div>
       </div>
       <div className="absolute h-[779px] left-1/2 top-[12362px] translate-x-[-50%] w-[1076px]" data-name="Many dashboards 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.06%] left-[-1.7%] max-w-none top-[-0.03%] w-[101.7%]" src={img11s.sag} />
+          <Image fill  alt="" className="absolute h-[100.06%] left-[-1.7%] max-w-none top-[-0.03%] w-[101.7%]" src={img11s.sag} />
         </div>
       </div>
       <div className="absolute h-[1425px] left-1/2 translate-x-[-50%] top-[14124px] w-[1258px]" data-name="VP 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[726.53%] left-[0] max-w-none top-[0] w-full rounded-[10px]" src={img12s.sag} />
+          <img 
+            alt="" 
+            className="object-cover rounded-[10px]" 
+            src={img12s.sag} 
+          />
         </div>
       </div>
       <Group427319870 />
@@ -417,9 +436,6 @@ export default function SagProjectScreen() {
       <Group427319872 />
       <Group427319873 />
       <Group427319885 />
-      <div className="absolute bottom-0 left-0 pointer-events-none top-[86px]" style={{ height: "calc(100% - 86px)" }}>
-        <Group427319857 />
-      </div>
       <Group427319893 />
     </div>
   );

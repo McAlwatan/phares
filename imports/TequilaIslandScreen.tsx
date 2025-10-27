@@ -1,6 +1,9 @@
-import { footerLogos, img10s, img11s, img12s, img13s, img14s, img15s, img16s, img17s, img1s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s, vid2s, vid3s, vid5s, vid6s, vid7s } from "lib/imageHelper";
+import { footerLogos, img10s, img11s, img12s, img13s, img14s, img15s, img16s, img17s, img1s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s, vid2s, vid3s, vid5s, vid6s, vid7s, vid8s, vid9s } from "lib/imageHelper";
 import svgPaths from "./svg-zl9a4cc46l";
 import Link from "next/link";
+import Image from "next/image";
+import SoundFun from "components/soundFun";
+import React from "react";
 
 function Group427319858() {
   return (
@@ -22,11 +25,11 @@ function Group427319858() {
 function Frame5() {
   return (
     <Link href={'https://www.instagram.com/p/DMxXTnSN255'} target="_blank" rel="noopener noreferrer">
-    <div className="absolute content-stretch flex gap-[15px] items-end left-[301px] top-[8953px]">
-      <div className="font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#008cff] text-[26px] text-nowrap" style={{ left: "calc(50% - 70px)" }}>
+    <div className="absolute content-stretch flex gap-[15px] items-end left-1/2 translate-x-[-50%] top-[8953px]">
+      <div className="font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic relative shrink-0 text-[#008cff] text-[26px] text-nowrap" style={{ left: "calc(50% - 420px)" }}>
         <p className="leading-[normal] whitespace-pre">Watch event highlights</p>
       </div>
-      <div className="h-[16px] relative shrink-0 w-[19px] top-[-5px]" data-name="Vector" style={{ left: "calc(50% - 70px)" }}>
+      <div className="h-[16px] relative shrink-0 w-[19px] top-[-5px]" data-name="Vector" style={{ left: "calc(50% - 410px)" }}>
         <div className="absolute inset-[-6.63%_-2.77%_-6.63%_-3.95%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 21 20">
             <path d={svgPaths.p39fc4600} id="Vector" stroke="var(--stroke-0, #008CFF)" strokeLinecap="square" strokeLinejoin="bevel" strokeWidth="1.5" />
@@ -116,11 +119,11 @@ function Group427319882() {
     <div className="absolute contents left-1/2 translate-x-[-50%] top-[2260px]">
   <div className="absolute h-[396px] left-[calc(50%-538px)] rounded-[10px] top-[2260px] w-[709px]" data-name="image 3">
     <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-      <img alt="" className="absolute h-[139.29%] left-0 max-w-none top-[0] w-full" src={img1s.tequila} />
+      <Image fill  alt="" className="absolute h-[139.29%] left-0 max-w-none top-[0] w-full" src={img1s.tequila} />
     </div>
   </div>
   <div className="absolute h-[168px] left-[calc(50%+250px)] top-[2374px] w-[289px]" data-name="TEQUILA ISLANDAsset 1 1">
-    <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img2s.tequila} />
+    <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img2s.tequila} />
   </div>
 </div>
   );
@@ -131,12 +134,12 @@ function Group427319884() {
     <div className="absolute contents left-1/2 translate-x-[-50%] top-[6727px]">
       <div className="absolute h-[427px] left-[calc(50%-540px)] rounded-[10px] top-[6727px] w-[609px]" data-name="DJ SETUP 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[101.86%] left-0 max-w-none top-[-1.36%] w-full" src={img11s.tequila} />
+          <Image fill  alt="" className="absolute h-[101.86%] left-0 max-w-none top-[-1.36%] w-full" src={img11s.tequila} />
         </div>
       </div>
       <div className="absolute h-[329px] left-[calc(50%-540px)] rounded-[10px] top-[7180px] w-[610px]" data-name="donjulio backdrop 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[116.12%] left-[-5.4%] max-w-none top-0 w-[118.18%]" src={img12s.tequila} />
+          <Image fill  alt="" className="absolute h-[116.12%] left-[-5.4%] max-w-none top-0 w-[118.18%]" src={img12s.tequila} />
         </div>
       </div>
     </div>
@@ -147,7 +150,7 @@ function Group427319857() {
   return (
     <div className="contents pointer-events-auto sticky top-0">
       <div className="absolute h-[84px] left-1/2 top-[86px] translate-x-[-50%] w-[1440px]">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img7s.tequila} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img7s.tequila} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#606060] text-[20px] text-nowrap text-right top-[118px] translate-x-[-100%]" style={{ left: "calc(50% + 655px)" }}>
         <p className="leading-[normal] whitespace-pre">ENTERTAINMENT</p>
@@ -166,17 +169,17 @@ function Group427319857() {
 function Group427319867() {
   return (
     <Link href={'/projects/nmb'}>
-      <div className="absolute contents left-[859px] top-[10763px]">
-        <div className="absolute bg-[#191919] h-[142px] left-[946px] rounded-br-[5px] rounded-tr-[5px] top-[10763px] w-[313px]" />
-        <div className="absolute h-[142px] left-[859px] rounded-[5px] top-[10763px] w-[199px]" data-name="NMB F Thumb">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]">
-            <img alt="" className="absolute h-[100.11%] left-[-12.56%] max-w-none top-[-0.06%] w-[127.14%]" src={footerLogos.tequila} />
+      <div className="absolute contents left-1/2 -translate-x-1/2 top-[10763px]" style={{ left: "calc(50% + 100px)", transform: "translateX(-50%)" }}>
+          <div className="absolute bg-[#191919] h-[142px] rounded-br-[5px] rounded-tr-[5px] top-[10763px] w-[313px] " style={{ left: "calc(50% + 350px)", transform: "translateX(-50%)"}}/>
+          <div className="absolute h-[142px] rounded-[5px] top-[10763px] w-[198px]" data-name="sag thumbnail" style={{ left: "calc(50% + 200px)", transform: "translateX(-50%)"}}>
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]" >
+              <Image fill  alt="" className="absolute h-[100.11%] left-[0] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.tequila} />
+            </div>
           </div>
-        </div>
-        <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[10820px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 300px)", transform: "translateX(-50%)" }}>
-          <p className="leading-[36px] whitespace-pre">next</p>
-        </div>
-      </div>
+          <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[10820px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 410px)", transform: "translateX(-50%)" }}>
+            <p className="leading-[36px] whitespace-pre">next</p>
+          </div>
+          </div>
     </Link>
     
   );
@@ -226,13 +229,25 @@ function Group427319850() {
   return (
     <div className="contents pointer-events-auto sticky top-0 h-[1414px]">
       <div className="absolute h-[84px] left-1/2 top-[86px] translate-x-[-50%] w-[1440px]">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={portfolioHeroes.tequila} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={portfolioHeroes.tequila} />
       </div>
     </div>
   );
 }
 
 export default function TequilaIslandScreen() {
+
+  const [isMuted, setIsMuted] = React.useState(true);
+    const videoRef = React.useRef<HTMLVideoElement>(null);
+  
+    const toggleMute = () => {
+      if (videoRef.current) {
+        videoRef.current.muted = !videoRef.current.muted;
+        setIsMuted(videoRef.current.muted);
+      }
+    };
+
+    
   return (
     <div className="bg-[#111111] relative size-full" data-name="TEQUILA ISLAND SCREEN">
       <Group427319858 />
@@ -274,24 +289,17 @@ export default function TequilaIslandScreen() {
           <span className="text-[#008cff]">the ocean</span>, and<span className="text-[#008cff]">{` sand`}</span>. This gave life to a warm palette of orange, pink, and yellow.
         </p>
       </div>
-      {/* <div className="absolute h-[1407px] left-0 top-[0] w-[1640px] overflow-hidden">
-        <div className="absolute left-1/2 top-1/2 -translate-x-[-50%] -translate-y-1/2 rotate-[270deg] w-[1407px] h-[1440px]">
-          <img 
-            alt="" 
-            className="absolute inset-0 w-full h-full object-cover" 
-            src={portfolioHeroes.tequila} 
-          />
-        </div>
-      </div> */}
-      <Group427319850 />
-      <div className="absolute h-[1407px] left-1/2 translate-x-[-50%] top-[86px] w-[1440px] overflow-hidden">
+      <div className="absolute h-[1407px] left-1/2 translate-x-[-50%] top-[0] w-[1680px] overflow-hidden">
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1500px] h-[1540px]">
-          <img 
+          <Image fill  
             alt="" 
             className="absolute inset-0 w-full h-full object-cover" 
             src={portfolioHeroes.tequila} 
           />
         </div>
+      </div>
+      <div className="absolute h-[1589px] left-1/2 translate-x-[-50%] top-[86px] w-[1640px] pointer-events-none">
+        <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-[#111111] via-[#111111]/90 to-transparent" />
       </div>
       <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] left-1/2 translate-x-[-50%] not-italic text-[#bfbfbf] text-[48px] text-center top-[1185px] tracking-[0.96px] uppercase w-[916px] z-10">
         <p className="leading-[50px]">
@@ -303,31 +311,47 @@ export default function TequilaIslandScreen() {
       <Frame4 />
       <Group427319882 />
       <div className="absolute h-[302px] left-[calc(50%)] rounded-[10px] top-[2720px] w-[534px]" data-name="sand_0000_Object">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img3s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img3s.tequila} />
 </div>
 <div className="absolute h-[216px] left-[calc(50%-528px)] top-[2763px] w-[439px]" data-name="TEQ-SANDN_0000_CRUZ">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img16s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img16s.tequila} />
 </div>
 <div className="absolute h-[650px] left-[calc(50%)] rounded-[10px] top-[3988px] w-[520px]" data-name="TEQ GENERAL 1">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img6s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img6s.tequila} />
 </div>
 <div className="absolute h-[650px] left-[calc(50%-537px)] rounded-[10px] top-[3298px] w-[520px]" data-name="TEQ GENER 1">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img17s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img17s.tequila} />
 </div>
 <div className="absolute h-[650px] left-[calc(50%)] rounded-[10px] top-[3298px] w-[520px]" data-name="image 4">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img4s.tequila} />
+  <video 
+    className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" 
+    src={vid9s.tequila} 
+    controls={false}
+    autoPlay
+    muted
+    loop
+    />
 </div>
 <div className="absolute h-[650px] left-[calc(50%-537px)] rounded-[10px] top-[3988px] w-[520px]" data-name="image 5">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img5s.tequila} />
+  <video
+   ref={videoRef}
+   className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" 
+   src={vid8s.tequila}
+   controls={false}
+   autoPlay
+   loop
+   muted
+   />
+   <SoundFun onClick={toggleMute}/>
 </div>
 <div className="absolute h-[423px] left-[calc(50%-537px)] rounded-[10px] top-[4678px] w-[339px]" data-name="EL PATRON">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img7s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img7s.tequila} />
 </div>
 <div className="absolute h-[423px] left-[calc(50%-175px)] rounded-[10px] top-[4678px] w-[339px]" data-name="SICARIOS">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img8s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img8s.tequila} />
 </div>
 <div className="absolute h-[423px] left-[calc(50%+185px)] rounded-[10px] top-[4678px] w-[338px]" data-name="LA SOMBRAS">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img9s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img9s.tequila} />
 </div>
 <div className="absolute h-[778px] left-1/2 -translate-x-1/2 top-[5181px] w-[1440px]" data-name="Talents 1">
   <video 
@@ -350,7 +374,7 @@ export default function TequilaIslandScreen() {
   />
 </div>
 <div className="absolute h-[648px] left-[calc(50%)] rounded-[10px] top-[6039px] w-[518px]" data-name="8 DAYS LEFT 1">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img10s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img10s.tequila} />
 </div>
 <Group427319884 />
 <div className="absolute flex h-[795px] items-center justify-center left-[calc(50%+259px)] top-[6548px] w-[439.875px]">
@@ -368,13 +392,13 @@ export default function TequilaIslandScreen() {
   </div>
 </div>
 <div className="absolute h-[423px] left-[calc(50%-168px)] rounded-[10px] top-[7805px] w-[338px]" data-name="V JEEZY">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img14s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img14s.tequila} />
 </div>
 <div className="absolute h-[423px] left-[calc(50%-537px)] rounded-[10px] top-[7805px] w-[339px]" data-name="NANDY">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img13s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img13s.tequila} />
 </div>
 <div className="absolute h-[423px] left-[calc(50%+200px)] rounded-[10px] top-[7805px] w-[339px]" data-name="STUNNER 1">
-  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img15s.tequila} />
+  <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img15s.tequila} />
 </div>
 <div className="absolute h-[430px] left-1/2 -translate-x-1/2 rounded-[10px] top-[8268px] w-[1076px]" data-name="image 8">
   <video 

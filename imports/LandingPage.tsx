@@ -1,3 +1,4 @@
+import Image from "next/image";
 import svgPaths from "./svg-q3cfdsi52r";
 
 // Placeholder images - replace these with your actual images in /public/images/
@@ -15,7 +16,7 @@ function Group7() {
   return (
     <div className="absolute h-[295px] left-[510px] top-[244px] w-[420px]">
       <div className="absolute aspect-[1920/1080] left-0 right-0 rounded-[5px] shadow-[0px_158px_44px_0px_rgba(0,0,0,0),0px_101px_41px_0px_rgba(0,0,0,0.03),0px_57px_34px_0px_rgba(0,0,0,0.1),0px_25px_25px_0px_rgba(0,0,0,0.17),0px_6px_14px_0px_rgba(0,0,0,0.2)] top-0">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgRectangle3} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgRectangle3} />
       </div>
       <div className="absolute inset-[5.84%_4.08%_85.42%_90.94%]" data-name="Subtract">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 21 26">
@@ -36,7 +37,7 @@ function Group6() {
   return (
     <div className="absolute contents left-[950px] top-[244px]">
       <div className="absolute h-[236px] left-[950px] rounded-[5px] shadow-[0px_127px_36px_0px_rgba(0,0,0,0),0px_81px_33px_0px_rgba(0,0,0,0.03),0px_46px_28px_0px_rgba(0,0,0,0.1),0px_20px_20px_0px_rgba(0,0,0,0.17),0px_5px_11px_0px_rgba(0,0,0,0.2)] top-[244px] w-[420px]" data-name="SAG GIF">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgSagGif} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgSagGif} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-[950px] not-italic text-[#d9d9d9] text-[20px] text-nowrap top-[500px] uppercase">
         <p className="leading-[normal] whitespace-pre">SAG</p>
@@ -52,7 +53,7 @@ function Group8() {
   return (
     <div className="absolute contents left-[70px] top-[244px]">
       <div className="absolute h-[236px] left-[70px] rounded-[5px] shadow-[0px_115px_32px_0px_rgba(0,0,0,0),0px_74px_29px_0px_rgba(0,0,0,0.03),0px_41px_25px_0px_rgba(0,0,0,0.1),0px_18px_18px_0px_rgba(0,0,0,0.17),0px_5px_10px_0px_rgba(0,0,0,0.2)] top-[244px] w-[420px]">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgRectangle5699} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgRectangle5699} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-[70px] not-italic text-[#d9d9d9] text-[20px] text-nowrap top-[500px] uppercase">
         <p className="leading-[normal] whitespace-pre">rifaly</p>
@@ -75,7 +76,7 @@ function Group5() {
       </div>
       <div className="absolute h-[236px] left-[71px] rounded-[5px] shadow-[0px_110px_31px_0px_rgba(0,0,0,0),0px_71px_28px_0px_rgba(0,0,0,0.03),0px_40px_24px_0px_rgba(0,0,0,0.1),0px_18px_18px_0px_rgba(0,0,0,0.17),0px_4px_10px_0px_rgba(0,0,0,0.2)] top-[569px] w-[419px]" data-name="animation vect-02">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]">
-          <img alt="" className="absolute h-[100.11%] left-[-0.24%] max-w-none top-[-0.05%] w-[100.24%]" src={imgAnimationVect02} />
+          <Image fill  alt="" className="absolute h-[100.11%] left-[-0.24%] max-w-none top-[-0.05%] w-[100.24%]" src={imgAnimationVect02} />
         </div>
       </div>
     </div>
@@ -86,7 +87,7 @@ function Group9() {
   return (
     <div className="absolute contents left-[510px] top-[569px]">
       <div className="absolute h-[236px] left-[510px] rounded-[5px] shadow-[0px_115px_32px_0px_rgba(0,0,0,0),0px_74px_29px_0px_rgba(0,0,0,0.03),0px_41px_25px_0px_rgba(0,0,0,0.1),0px_18px_18px_0px_rgba(0,0,0,0.17),0px_5px_10px_0px_rgba(0,0,0,0.2)] top-[569px] w-[420px]" data-name="TEQUILA GIF">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgTequilaGif} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgTequilaGif} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-[510px] not-italic text-[#d9d9d9] text-[20px] text-nowrap top-[825px] uppercase">
         <p className="leading-[normal] whitespace-pre">TEQUILA ISLAND</p>
@@ -102,7 +103,7 @@ function Group10() {
   return (
     <div className="absolute contents left-[950px] top-[569px]">
       <div className="absolute h-[236px] left-[950px] rounded-[5px] shadow-[0px_111px_31px_0px_rgba(0,0,0,0),0px_71px_28px_0px_rgba(0,0,0,0.03),0px_40px_24px_0px_rgba(0,0,0,0.1),0px_18px_18px_0px_rgba(0,0,0,0.17),0px_4px_10px_0px_rgba(0,0,0,0.2)] top-[569px] w-[421px]" data-name="Thumb 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgThumb1} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgThumb1} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-[950px] not-italic text-[#d9d9d9] text-[20px] text-nowrap top-[825px] uppercase">
         <p className="leading-[normal] whitespace-pre">nmb</p>
@@ -118,7 +119,7 @@ function Group11() {
   return (
     <div className="absolute contents left-[70px] top-[894px]">
       <div className="absolute h-[236px] left-[70px] rounded-[5px] shadow-[0px_127px_36px_0px_rgba(0,0,0,0),0px_81px_33px_0px_rgba(0,0,0,0.03),0px_46px_28px_0px_rgba(0,0,0,0.1),0px_20px_20px_0px_rgba(0,0,0,0.17),0px_5px_11px_0px_rgba(0,0,0,0.2)] top-[894px] w-[420px]" data-name="NIKONEKT">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgNikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgNikonekt} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-[70px] not-italic text-[#d9d9d9] text-[20px] text-nowrap top-[1150px] uppercase">
         <p className="leading-[normal] whitespace-pre">NIKONEKT</p>
@@ -134,7 +135,7 @@ function Group12() {
   return (
     <div className="absolute contents left-[510px] top-[894px]">
       <div className="absolute h-[236px] left-[510px] rounded-[5px] shadow-[0px_127px_36px_0px_rgba(0,0,0,0),0px_81px_33px_0px_rgba(0,0,0,0.03),0px_46px_28px_0px_rgba(0,0,0,0.1),0px_20px_20px_0px_rgba(0,0,0,0.17),0px_5px_11px_0px_rgba(0,0,0,0.2)] top-[894px] w-[420px]" data-name="THUMB SITES">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgThumbSites} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgThumbSites} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-[510px] not-italic text-[#d9d9d9] text-[20px] text-nowrap top-[1150px] uppercase">
         <p className="leading-[normal] whitespace-pre">COOL SITES</p>
@@ -156,7 +157,7 @@ function Group13() {
         <p className="leading-[normal] whitespace-pre">THE ARCHIVE</p>
       </div>
       <div className="absolute h-[236px] left-[950px] rounded-[5px] shadow-[0px_110px_31px_0px_rgba(0,0,0,0),0px_71px_28px_0px_rgba(0,0,0,0.03),0px_40px_24px_0px_rgba(0,0,0,0.1),0px_18px_18px_0px_rgba(0,0,0,0.17),0px_4px_10px_0px_rgba(0,0,0,0.2)] top-[894px] w-[420px]" data-name="RANDOM">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgRandom} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={imgRandom} />
       </div>
     </div>
   );

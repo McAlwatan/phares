@@ -23,16 +23,6 @@ export default function MainPortfolio({ onProjectClick }: MainPortfolioProps) {
           <div className="font-['Neue_Brucke:Regular',_sans-serif] text-[#bfbfbf] text-[48px] tracking-[0.96px] uppercase">
             <p className="leading-[50px] whitespace-pre">about me</p>
           </div>
-          
-          {/* Right: Let's chat and Experience */}
-          <div className="flex items-center gap-16">
-            <div className="font-['IBM_Plex_Mono:Regular',_sans-serif] text-[#bfbfbf] text-[22px]">
-              <p className="leading-[normal] whitespace-pre">Let's chat:</p>
-            </div>
-            <div className="font-['IBM_Plex_Mono:Regular',_sans-serif] text-[#bfbfbf] text-[22px]">
-              <p className="leading-[normal] whitespace-pre">Experience:</p>
-            </div>
-          </div>
         </div>
         
         {/* ABOUT ME Description */}

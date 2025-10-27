@@ -45,11 +45,13 @@ export default function ResponsiveImage({
     );
     
     return (
-      <img
+      <Image fill 
         src={placeholderSrc}
         alt={alt}
         className={className}
         style={{ objectFit }}
+        layout="fill"
+        objectFit="cover"
       />
     );
   }
@@ -67,6 +69,8 @@ export default function ResponsiveImage({
         priority={priority}
         sizes={sizes || '100vw'}
         style={{ objectFit }}
+        layout="fill" 
+        objectFit="cover"
       />
     );
   }
@@ -83,6 +87,8 @@ export default function ResponsiveImage({
       priority={priority}
       sizes={sizes}
       style={{ objectFit, width: '100%', height: 'auto' }}
+      layout="fill" 
+      objectFit="cover"
     />
   );
 }

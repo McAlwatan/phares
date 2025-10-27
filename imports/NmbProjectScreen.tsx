@@ -1,6 +1,7 @@
 import { footerLogos, img1s, img2s, img3s, img4s, img5s, img6s, img7s, portfolioHeroes } from "lib/imageHelper";
 import svgPaths from "./svg-qgqtk4ud0j";
 import Link from "next/link";
+import Image from "next/image";
 
 function Group427319858() {
   return (
@@ -47,15 +48,17 @@ function Group427319878() {
 function Group427319867() {
   return (
     <Link href="/projects/nikonekt">
-    <div className="absolute contents left-[859px] top-[8340px]">
-      <div className="absolute bg-[#191919] h-[142px] left-[946px] rounded-br-[5px] rounded-tr-[5px] top-[8340px] w-[313px]" />
-      <div className="absolute h-[142px] left-[859px] rounded-[5px] top-[8340px] w-[200px]" data-name="Padlock Motion-02">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" src={footerLogos.nmb} />
-      </div>
-      <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[8390px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 300px)", transform: "translateX(-50%)" }}>
-        <p className="leading-[36px] whitespace-pre">next</p>
-      </div>
-    </div>
+    <div className="absolute contents left-1/2 -translate-x-1/2 top-[8340px]" style={{ left: "calc(50% + 100px)", transform: "translateX(-50%)" }}>
+              <div className="absolute bg-[#191919] h-[142px] rounded-br-[5px] rounded-tr-[5px] top-[8340px] w-[313px] " style={{ left: "calc(50% + 350px)", transform: "translateX(-50%)"}}/>
+              <div className="absolute h-[142px] rounded-[5px] top-[8340px] w-[198px]" data-name="sag thumbnail" style={{ left: "calc(50% + 200px)", transform: "translateX(-50%)"}}>
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]" >
+                  <Image fill  alt="" className="absolute h-[100.11%] left-[0] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.nmb} />
+                </div>
+              </div>
+              <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[8400px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 410px)", transform: "translateX(-50%)" }}>
+                <p className="leading-[36px] whitespace-pre">next</p>
+              </div>
+            </div>
     </Link>
   );
 }
@@ -103,7 +106,7 @@ function Group427319857() {
   return (
     <div className="contents pointer-events-auto sticky top-0">
       <div className="absolute h-[84px] left-1/2 top-[86px] translate-x-[-50%] w-[1440px]">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={portfolioHeroes.nmb} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={portfolioHeroes.nmb} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#606060] text-[20px] text-nowrap text-right top-[118px] translate-x-[-100%]" style={{ left: "calc(50% + 654px)" }}>
         <p className="leading-[normal] whitespace-pre">BANKING</p>
@@ -145,16 +148,19 @@ export default function NmbProjectScreen() {
         <p className="leading-[normal]">A centralized hub for NMB’s brand assets, photography, videos, illustrations, animations, and audio all captured in the brand’s unique tone. Everything made easy to manage, share, and use.</p>
       </div>
       <div className="absolute h-[2254px] left-1/2 translate-x-[-50%] top-[1600px] w-[1076px]" data-name="All screens 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img1s.nmb} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img1s.nmb} />
       </div>
       <div className="absolute h-[1184px] left-1/2 top-[0px] translate-x-[-50%] w-[1440px]" data-name="image 15">
         <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
           <div className="absolute bg-[#13140f] inset-0" />
           <div className="absolute inset-0 overflow-hidden">
-            <img alt="" className="absolute h-[90.45%] left-[-0.01%] max-w-none top-0 w-[100.02%]" src={portfolioHeroes.nmb} />
+            <Image fill  alt="" className="absolute h-[90.45%] left-[-0.01%] max-w-none top-0 w-[100.02%]" src={portfolioHeroes.nmb} />
           </div>
           <div className="absolute inset-0" />
         </div>
+      </div>
+      <div className="absolute h-[1289px] left-1/2 translate-x-[-50%] top-[86px] w-[1640px] pointer-events-none">
+        <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-[#111111] via-[#111111]/90 to-transparent" />
       </div>
       <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] left-1/2 not-italic text-[48px] text-center text-white top-[898px] tracking-[0.96px] translate-x-[-50%] uppercase w-[1054px]">
         <p className="leading-[50px]">
@@ -165,27 +171,27 @@ export default function NmbProjectScreen() {
       </div>
       <Group427319878 />
       <Group427319896 />
-      <div className="absolute bottom-0 left-0 pointer-events-none top-[86px]" style={{ height: "calc(100% - 86px)" }}>
+      <div className="absolute bottom-0 left-0 pointer-events-none top-[86px] z-1000" style={{ height: "calc(100% - 86px)" }}>
         <Group427319857 />
       </div>
       <div className="absolute h-[910px] left-1/2 -translate-x-1/2 rounded-[20px] top-[4218px] w-[840px]" data-name="LANDING PAGE 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[20px]">
-          <img alt="" className="absolute h-[260.04%] left-0 max-w-none top-[-0.07%] w-full" src={img3s.nmb} />
+          <Image fill  alt="" className="absolute h-[260.04%] left-0 max-w-none top-[-0.07%] w-full" src={img3s.nmb} />
         </div>
       </div>
       <div className="absolute h-[572px] left-1/2 rounded-[10px] top-[5982px] translate-x-[-50%] w-[840px]" data-name="LANDING PAGE 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[413.69%] left-0 max-w-none top-[-265.24%] w-full" src={img5s.nmb} />
+          <Image fill  alt="" className="absolute h-[413.69%] left-0 max-w-none top-[-265.24%] w-full" src={img5s.nmb} />
         </div>
       </div>
       <div className="absolute h-[774px] left-1/2 translate-x-[-50%] rounded-[20px] top-[5168px] w-[1076px]" data-name="LANDING PAGE 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[20px]">
-          <img alt="" className="absolute h-[391.89%] left-[-0.01%] max-w-none top-[-150.99%] w-[100.02%]" src={img4s.nmb} />
+          <Image fill  alt="" className="absolute h-[391.89%] left-[-0.01%] max-w-none top-[-150.99%] w-[100.02%]" src={img4s.nmb} />
         </div>
       </div>
       <div className="absolute h-[1232px] left-1/2 translate-x-[-50%] rounded-[10px] top-[6612px] w-[1076px]" data-name="Search results 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[106.36%] left-[-0.99%] max-w-none top-[-6.85%] w-[110.82%]" src={img7s.nmb} />
+          <Image fill  alt="" className="absolute h-[106.36%] left-[-0.99%] max-w-none top-[-6.85%] w-[110.82%]" src={img7s.nmb} />
         </div>
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#008cff] text-[22px] top-[7964px] w-[840px]" style={{ left: "calc(50% - 420px)" }}>

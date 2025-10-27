@@ -142,6 +142,15 @@ export const projectImages = {
   sites: {
     hero: '/images/sites/hero.png',
     thumbnail: '/images/sites/thumbnail.png',
+    img1: '/images/sites/img1.png',
+    img2: '/images/sites/img2.png',
+    img3: '/images/sites/img3.png',
+    img4: '/images/sites/img4.png',
+    img5: '/images/sites/img5.png',
+    img6: '/images/sites/img6.png',
+    img7: '/images/sites/img7.png',
+    img8: '/images/sites/img8.png',
+    img9: '/images/sites/img9.png',
   },
   random: {
     thumbnail: '/images/random/thumbnail.png',
@@ -169,6 +178,7 @@ export const vid1s = {
 export const vid2s = {
   sag: '/images/sag/vid2.mp4',
   nmb: '/images/nmb/vid2.mp4',
+  rifaly: '/images/rifaly/vid2.mp4',
   tequila: '/images/tequila/vid2.mp4',
   nendiwe: '/images/nendiwe/vid2.mp4',
   nikonekt: '/images/nikonekt/vid2.mp4',
@@ -179,6 +189,8 @@ export const vid3s = {
   tequila: '/images/tequila/vid3.mp4',
   nendiwe: '/images/nendiwe/vid3.mp4',
   nikonekt: '/images/nikonekt/vid3.mp4',
+  rifaly: '/images/rifaly/vid3.mp4',
+
 };
 
 export const vid4s = {
@@ -213,6 +225,13 @@ export const vid7s = {
   nikonekt: '/images/nikonekt/vid7.mp4',
 };
 
+export const vid8s = {
+  tequila: '/images/tequila/vid8.mp4'
+}
+
+export const vid9s = {
+  tequila: '/images/tequila/vid9.mp4'
+}
 // Portfolio grid thumbnails with fallbacks
 export const portfolioThumbnails = {
   rifaly: projectImages.rifaly.thumbnail,
@@ -252,6 +271,7 @@ export const img1s = {
   nendiwe: projectImages.nendiwe.img1,
   nikonekt: projectImages.nikonekt.img1,
   sound: projectImages.sound.img1,
+  sites: projectImages.sites.img1,
 }
 
 export const img2s = {
@@ -262,6 +282,7 @@ export const img2s = {
   nendiwe: projectImages.nendiwe.img2,
   nikonekt: projectImages.nikonekt.img2,
   sound: projectImages.sound.img2,
+  sites: projectImages.sites.img2,
 }
 
 export const img3s = {
@@ -271,6 +292,7 @@ export const img3s = {
   tequila: projectImages.tequila.img3,
   nendiwe: projectImages.nendiwe.img3,
   nikonekt: projectImages.nikonekt.img3,
+  sites: projectImages.sites.img3,
 }
 
 export const img4s = {
@@ -280,6 +302,7 @@ export const img4s = {
   tequila: projectImages.tequila.img4,
   nendiwe: projectImages.nendiwe.img4,
   nikonekt: projectImages.nikonekt.img4,
+  sites: projectImages.sites.img4,
 }
 
 export const img5s = {
@@ -289,6 +312,7 @@ export const img5s = {
   tequila: projectImages.tequila.img5,
   nendiwe: projectImages.nendiwe.img5,
   nikonekt: projectImages.nikonekt.img5,
+  sites: projectImages.sites.img5,
 }
 
 export const img6s = {
@@ -298,6 +322,7 @@ export const img6s = {
   tequila: projectImages.tequila.img6,
   nendiwe: projectImages.nendiwe.img6,
   nikonekt: projectImages.nikonekt.img6,
+  sites: projectImages.sites.img6,
 }
 
 export const img7s = {
@@ -307,6 +332,7 @@ export const img7s = {
   nendiwe: projectImages.nendiwe.img7,
   nikonekt: projectImages.nikonekt.img7,
   nmb: projectImages.nmb.img7,
+  sites: projectImages.sites.img7,
 }
 
 export const img8s = {
@@ -315,6 +341,7 @@ export const img8s = {
   nikonekt: projectImages.nikonekt.img8,
   sag: projectImages.sag.img8,
   rifaly: projectImages.rifaly.img8,
+  sites: projectImages.sites.img8,
 }
 
 export const img9s = {
@@ -323,6 +350,7 @@ export const img9s = {
   nikonekt: projectImages.nikonekt.img9,
   sag: projectImages.sag.img9,
   rifaly: projectImages.rifaly.img9,
+  sites: projectImages.sites.img9,
 }
 
 export const img10s = {
@@ -393,4 +421,5 @@ export const footerLogos = {
   tequila: '/images/tequila/footer.png',
   nendiwe: '/images/nendiwe/footer.png',
   nikonekt: '/images/nikonekt/footer.png',
+  sites: '/images/sites/footer.png',
 }

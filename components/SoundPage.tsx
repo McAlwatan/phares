@@ -8,6 +8,7 @@ const imgImage11 = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'
 
 import MainNavigation from './MainNavigation';
 import { img1s, portfolioHeroes } from 'lib/imageHelper';
+import Image from 'next/image';
 
 interface AudioPlayerProps {
   title: string;
@@ -115,10 +116,13 @@ function SpotifyStyleAudioPlayer({ title, artist, albumArt, audioUrl, credits }:
 
       {/* Album Art Container - Exact Figma positioning */}
       <div className="h-[225px] rounded-[15px] overflow-hidden relative group">
-        <img 
+        <Image 
           alt={title} 
           className="absolute h-[132.9%] left-[-0.84%] max-w-none top-[-21.13%] w-[101.69%] object-cover" 
           src={img1s.sound}
+          layout="fill"
+          height={0}
+          width={0}
         />
         
         {/* Progress bar background */}
@@ -320,7 +324,7 @@ export default function SoundPage({ onBack }: SoundPageProps) {
         {/* Studio Image - Fixed Spacing */}
         <div className="absolute h-[855px] left-1/2 rounded-[10px] top-[1000px] translate-x-[-50%] w-[1310px]" data-name="image 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-            <img alt="" className="absolute h-[114.91%] left-0 max-w-none top-[-1.26%] w-full" src={portfolioHeroes.sound} />
+            <Image alt="" className="absolute h-[114.91%] left-0 max-w-none top-[-1.26%] w-full" src={portfolioHeroes.sound} fill/>
           </div>
         </div>
 

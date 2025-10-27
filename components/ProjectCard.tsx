@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 interface ProjectCardProps {
   title: string;
   category: string;
@@ -11,10 +14,12 @@ export default function ProjectCard({ title, category, imageSrc, className = "",
     <div className={`relative ${className}`}>
       {/* Project Image */}
       <div className="relative h-[236px] w-[420px] rounded-[5px] shadow-[0px_127px_36px_0px_rgba(0,0,0,0),0px_81px_33px_0px_rgba(0,0,0,0.03),0px_46px_28px_0px_rgba(0,0,0,0.1),0px_20px_20px_0px_rgba(0,0,0,0.17),0px_5px_11px_0px_rgba(0,0,0,0.2)]">
-        <img 
+        <Image fill  
           alt={title} 
           className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[5px] size-full" 
-          src={imageSrc} 
+          src={imageSrc}
+          layout="fill"
+          objectFit="cover" 
         />
         
         {/* Play Icon Overlay */}

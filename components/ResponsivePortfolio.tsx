@@ -58,8 +58,14 @@ interface ResponsivePortfolioProps {
 }
 
 export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfolioProps) {
-  const [isAboutExpanded, setIsAboutExpanded] = useState(false);
   const [showPasswordPopup, setShowPasswordPopup] = useState(false);
+
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about-section');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const projects = [
     { title: "rifaly", category: "news and content", image: portfolioThumbnails.rifaly, projectKey: 'rifaly' },
@@ -93,7 +99,7 @@ export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfo
     } else if (projectName === 'cool sites') {
       onProjectClick?.('sites');
     } else if (projectName === 'random') {
-      onProjectClick?.('sound');
+      onProjectClick?.('random');
     }
   };
 
@@ -112,48 +118,27 @@ export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfo
         <section className="mb-12 sm:mb-14 md:mb-16">
           <div className="flex justify-between w-full t-0">
             <button 
-            className="flex items-center gap-2 mb-4 sm:mb-6 transition-colors hover:text-[#00a6ff] focus:outline-none focus:ring-2 focus:ring-[#008cff] focus:ring-offset-2 focus:ring-offset-[#111111] rounded-md px-2 py-1"
-            onClick={() => setIsAboutExpanded(!isAboutExpanded)}
-            aria-expanded={isAboutExpanded}
-            aria-label="Toggle about me section"
-          >
-            <span className="font-['IBM_Plex_Mono',_monospace] text-[#008cff] text-lg sm:text-xl lg:text-2xl uppercase">
-              about me
-            </span>
-            {/* Enhanced Bouncing Arrow */}
-            <div className={`transition-transform duration-300 ${isAboutExpanded ? 'rotate-180' : ''}`}>
-              <div className={!isAboutExpanded ? 'animate-enhanced-bounce' : ''}>
-                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 20 20">
-                  <path d={svgPaths.p7c6ea00} stroke="#008CFF" strokeLinecap="square" strokeWidth="1.5" />
-                </svg>
+              onClick={scrollToAbout}
+              className="flex items-center gap-2 mb-4 sm:mb-6 transition-colors hover:text-[#00a6ff] focus:outline-none focus:ring-2 focus:ring-[#008cff] focus:ring-offset-2 focus:ring-offset-[#111111] rounded-md px-2 py-1"
+              aria-label="Scroll to about me section"
+            >
+              <span className="font-['IBM_Plex_Mono',_monospace] text-[#008cff] text-lg sm:text-xl lg:text-2xl uppercase">
+                about me
+              </span>
+              {/* Enhanced Bouncing Arrow */}
+              <div className="transition-transform duration-300">
+                <div className="animate-enhanced-bounce">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" viewBox="0 0 20 20">
+                    <path d={svgPaths.p7c6ea00} stroke="#008CFF" strokeLinecap="square" strokeWidth="1.5" />
+                  </svg>
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
           
-          <p className="font-['IBM_Plex_Mono',_monospace] text-[#7f7f7f] text-base sm:text-lg lg:text-xl uppercase leading-normal max-w-3xl mb-2">
-            Despite my core focus on Product & UX/ui, <br />here you'll find a blend of projects that <br />showcase my broader creative range.
-          </p>
+            <p className="font-['IBM_Plex_Mono',_monospace] text-[#7f7f7f] text-base sm:text-lg lg:text-xl uppercase leading-normal max-w-3xl mb-2">
+              Despite my core focus on Product & UX/ui, <br />here you'll find a blend of projects that <br />showcase my broader creative range.
+            </p>
           </div>
-          
-          {isAboutExpanded && (
-            <div className="bg-[#202020] border border-[#3d3d3d] rounded-lg p-4 sm:p-5 md:p-6 max-w-4xl animate-in slide-in-from-top-2 duration-300">
-              <div className="font-['IBM_Plex_Mono',_monospace] text-[#7f7f7f] text-sm sm:text-base lg:text-lg leading-relaxed space-y-3 sm:space-y-4">
-                <p>
-                  Hi, I'm Phares. For the past 8 years, I've explored and worked across diverse creative projects, 
-                  always chasing new ways to make design feel exciting and inspiring.
-                </p>
-                <p>
-                  Creating this portfolio reminded me of the countless hours, dedication, and energy I poured into 
-                  every project. Over time, design has become more than just a career, it's part of who I am. 
-                  It's how I grow, express, and create experiences worth sharing.
-                </p>
-                <p>
-                  I currently live in Dar es Salaam, and I'm excited to explore remote collaborations with teams 
-                  and individuals anywhere.
-                </p>
-              </div>
-            </div>
-          )}
         </section>
 
         {/* Portfolio Grid - Fully Responsive */}
@@ -174,23 +159,13 @@ export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfo
         </section>
 
         {/* About Me Full Section with Enhanced Layout */}
-        <section className="mb-16 sm:mb-18 md:mb-20">
+        <section id="about-section" className="mb-16 sm:mb-18 md:mb-20">
           {/* ABOUT ME Title Row with Let's chat and Experience on the right */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6 sm:mb-8 gap-4 sm:gap-6">
             {/* Left: ABOUT ME */}
             <h2 className="font-['Neue_Brucke',_sans-serif] text-[#bfbfbf] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-wider">
               about me
             </h2>
-            
-            {/* Right: Let's chat and Experience (Hidden on mobile, shows in description below) */}
-            <div className="hidden lg:flex flex-col gap-3">
-              <div className="font-['IBM_Plex_Mono',_monospace] text-[#bfbfbf] text-base md:text-lg lg:text-xl">
-                Let's chat:
-              </div>
-              <div className="font-['IBM_Plex_Mono',_monospace] text-[#bfbfbf] text-base md:text-lg lg:text-xl">
-                Experience:
-              </div>
-            </div>
           </div>
           
           {/* ABOUT ME Description */}

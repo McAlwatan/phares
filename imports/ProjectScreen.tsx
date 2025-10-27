@@ -1,5 +1,4 @@
-import svgPaths from "./svg-qfblbybskz";
-
+import Image from "next/image";
 // Placeholder images for Project Screen
 const placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Crect fill='%23222' width='300' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' fill='%23666' font-size='14' font-family='monospace'%3EALBUM%3C/text%3E%3C/svg%3E";
 const imgImage2 = placeholder;
@@ -67,7 +66,7 @@ export default function ProjectScreen() {
       </div>
       <div className="absolute h-[855px] left-1/2 rounded-[10px] top-[943px] translate-x-[-50%] w-[1310px]" data-name="image 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[114.91%] left-0 max-w-none top-[-1.26%] w-full" src={imgImage2} />
+          <Image fill  alt="" className="absolute h-[114.91%] left-0 max-w-none top-[-1.26%] w-full" src={imgImage2} />
         </div>
       </div>
       <p className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[normal] left-[calc(50%-411px)] not-italic text-[#7f7f7f] text-[26px] text-nowrap top-[1838px] uppercase whitespace-pre">HOME SETUP. SOMETIMES workspace ⚡ SOMETIMES jam cave</p>
@@ -84,12 +83,12 @@ export default function ProjectScreen() {
       </p>
       <div className="absolute h-[225px] left-[228px] rounded-[15px] top-[2436px] w-[983px]" data-name="image 12">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[15px]">
-          <img alt="" className="absolute h-[132.9%] left-[-0.84%] max-w-none top-[-21.13%] w-[101.69%]" src={imgImage12} />
+          <Image fill  alt="" className="absolute h-[132.9%] left-[-0.84%] max-w-none top-[-21.13%] w-[101.69%]" src={imgImage12} />
         </div>
       </div>
       <div className="absolute h-[225px] left-[228px] rounded-[15px] top-[2745px] w-[983px]" data-name="image 13">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[15px]">
-          <img alt="" className="absolute h-[132.9%] left-[-0.84%] max-w-none top-[-21.13%] w-[101.69%]" src={imgImage12} />
+          <Image fill  alt="" className="absolute h-[132.9%] left-[-0.84%] max-w-none top-[-21.13%] w-[101.69%]" src={imgImage12} />
         </div>
       </div>
       <p className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[normal] left-[calc(50%-390px)] not-italic text-[#7f7f7f] text-[20px] text-nowrap top-[2691px] whitespace-pre">
@@ -120,7 +119,7 @@ export default function ProjectScreen() {
       </div>
       <div className="absolute h-[421px] left-[228px] rounded-[10px] top-[3188px] w-[983px]" data-name="image 11">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[125.36%] left-[-0.93%] max-w-none top-[-23.55%] w-[101.86%]" src={imgImage11} />
+          <Image fill  alt="" className="absolute h-[125.36%] left-[-0.93%] max-w-none top-[-23.55%] w-[101.86%]" src={imgImage11} />
         </div>
       </div>
       <Group427319893 />

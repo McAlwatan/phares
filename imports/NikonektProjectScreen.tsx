@@ -1,7 +1,8 @@
 import React from "react";
-import { footerLogos, img10s, img11s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s } from "lib/imageHelper";
+import { footerLogos, img10s, img11s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s, vid2s } from "lib/imageHelper";
 import svgPaths from "./svg-3qcp7sqj43";
 import Link from "next/link";
+import Image from "next/image";
 
 function Group427319858() {
   return (
@@ -52,7 +53,7 @@ function Group427319895() {
   return (
     <div className="absolute contents left-[calc(50%-538px)] top-[3114px]">
       <div className="absolute left-1/2 -translate-x-1/2 rounded-[10px] h-[518px] w-[1036px] top-[3114px]" data-name="NIKONEKT LOGO,PATTERN-01">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img3s.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img3s.nikonekt} />
       </div>
     </div>
   );
@@ -61,28 +62,40 @@ function Group427319895() {
 function Group427319867() {
   return (
     <Link href={'/projects/sites'}>
-    <div className="absolute contents left-[858px] top-[9336px]">
-      <div className="absolute bg-[#191919] h-[142px] left-[945px] rounded-br-[5px] rounded-tr-[5px] top-[9336px] w-[313px]" />
-      <div className="absolute h-[142px] left-[858px] rounded-[5px] top-[9336px] w-[200px]" data-name="THUMB SITES">
-        <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[5px]">
-          <div className="absolute bg-[#8b5332] inset-0 rounded-[5px]" />
-          <div className="absolute inset-0 overflow-hidden rounded-[5px]">
-            <img alt="" className="absolute h-[79.58%] left-[-0.22%] max-w-none top-[20.42%] w-[100.44%]" src={footerLogos.nikonekt} />
+    <div className="absolute contents left-1/2 -translate-x-1/2 top-[9336px]" style={{ left: "calc(50% + 100px)", transform: "translateX(-50%)" }}>
+      <div className="absolute bg-[#191919] h-[142px] rounded-br-[5px] rounded-tr-[5px] top-[9336px] w-[313px] " style={{ left: "calc(50% + 350px)", transform: "translateX(-50%)"}}/>
+        <div className="absolute h-[142px] rounded-[5px] top-[9336px] w-[198px]" data-name="sag thumbnail" style={{ left: "calc(50% + 200px)", transform: "translateX(-50%)"}}>
+          <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]" >
+            <Image fill  alt="" className="absolute h-[100.11%] left-[0] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.nikonekt} />
           </div>
         </div>
+        <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[9400px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 410px)", transform: "translateX(-50%)" }}>
+          <p className="leading-[36px] whitespace-pre">next</p>
+        </div>
       </div>
-      <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[9390px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 300px)", transform: "translateX(-50%)" }}>
-        <p className="leading-[36px] whitespace-pre">next</p>
-      </div>
-    </div>
     </Link>
   );
 }
 
 function Group427319868() {
+  const scrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 100,
+      behavior: 'smooth',
+    });
+  };
+
   return (
-    <button className="absolute contents cursor-pointer left-[calc(50%-538px)] top-[9396px]">
-      <p className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[36px] not-italic text-[#7f7f7f] text-[30px] text-nowrap top-[9396px] tracking-[0.6px] uppercase whitespace-pre" style={{ left: "calc(50% - 488px)" }}>
+    <button
+      type="button" // Add this to prevent form submission if inside a form
+      className="absolute contents cursor-pointer left-[calc(50%-538px)] top-[9396px]"
+      onClick={scrollToTop}
+    >
+      <p
+        className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[36px] not-italic text-[#7f7f7f] text-[30px] text-nowrap top-[9396px] tracking-[0.6px] uppercase whitespace-pre"
+        style={{ left: "calc(50% - 488px)" }}
+      >
         back to top
       </p>
     </button>
@@ -137,7 +150,13 @@ function Group427319888() {
 function Group427319893() {
   return (
     <div className="absolute bottom-[-8730px] contents left-1/2 translate-x-[-50%]">
+      <div className="absolute bg-[#111111] top-[9704px] h-[86px] left-1/2 translate-x-[-50%] w-[1440px]" />
       <div className="absolute aspect-[30.6429/25.9285] left-[4.51%] right-[93.82%] translate-y-[-50%]" data-name="Vector" style={{ top: "calc(50% + 9199px)" }}>
+        <div className="absolute inset-[-5%_-4.17%]">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 26 22">
+            <path d={svgPaths.p3672900} id="Vector" stroke="var(--stroke-0, #BFBFBF)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+          </svg>
+        </div>
       </div>
       <p className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[normal] not-italic text-[#bfbfbf] text-[20px] text-nowrap top-[9704px] whitespace-pre" style={{ left: "calc(50% + 499px)" }}>
         © 2025. V 2.0
@@ -157,7 +176,7 @@ export default function NikonektProjectScreen() {
   return (
     <div className="bg-[#111111] relative size-full" data-name="NIKONEKT PROJECT SCREEN">
       <Group427319858 />
-      <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-none left-1/2 not-italic text-[#bfbfbf] text-[50px] text-center top-[230px] translate-x-[-50%] uppercase w-[1162px]">
+      <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-none left-1/2 not-italic text-[#bfbfbf] text-[50px] text-center top-[70px] translate-x-[-50%] uppercase w-[1162px]">
         <p className="mb-0">One day I got a call from two of my dev friends:</p>
         <p className="mb-0">‘Let’s meet up, we’ve got work to do!’</p>
         <p className="mb-0">&nbsp;</p>
@@ -166,7 +185,7 @@ export default function NikonektProjectScreen() {
         <p>so, We just needed to review the UX, make key adjustments, and nail the branding. From there, we committed to improving the app continuously based on real user feedback.</p>
       </div>
       <div className="absolute h-[603px] left-1/2 rounded-[10px] top-[862px] translate-x-[-50%] w-[1240px]" data-name="NIKO BANNER-02 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={portfolioHeroes.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={portfolioHeroes.nikonekt} />
       </div>
       <Group427319878 />
       <p className="absolute font-['IBM_Plex_Mono:SemiBold',_sans-serif] leading-[normal] not-italic text-[#bfbfbf] text-[34px] text-nowrap top-[1851px] whitespace-pre" style={{ left: "calc(50% - 420px)" }}>
@@ -222,36 +241,43 @@ export default function NikonektProjectScreen() {
         Final visuals showcase the brand across digital stores, posters, banners, etc.
       </p>
       <div className="absolute h-[557px] left-1/2 -translate-x-1/2 rounded-[10px] top-[2311px] w-[840px]" data-name="ideation 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img2s.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img2s.nikonekt} />
       </div>
       <div className="absolute left-[calc(50%-538px)] rounded-[10px] size-[518px] top-[3943px]" data-name="NIKONEKT LOGO,PATTERN-01">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img4s.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img4s.nikonekt} />
       </div>
       <Group427319895 />
       <div className="absolute left-[calc(50%+20px)] rounded-[10px] size-[518px] top-[3943px]" data-name="NIKONEKT LOGO,PATTERN-02">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-full left-[0.04%] max-w-none top-0 w-[119.22%]" src={img5s.nikonekt} />
+          <Image fill  alt="" className="absolute h-full left-[0.04%] max-w-none top-0 w-[119.22%]" src={img5s.nikonekt} />
         </div>
       </div>
       <div className="absolute h-[934px] left-1/2 top-[4737px] translate-x-[-50%] w-[840px]" data-name="APP STORE MOCKS 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[97.7%] left-[0] max-w-none top-[0.85%] w-[97.47%]" src={img6s.nikonekt} />
+          <Image fill  alt="" className="absolute h-[97.7%] left-[0] max-w-none top-[0.85%] w-[97.47%]" src={img6s.nikonekt} />
         </div>
       </div>
       <div className="absolute h-[651px] left-[calc(50%-538px)] rounded-[10px] top-[5751px] w-[521px]" data-name="POSTER 2">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img7s.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img7s.nikonekt} />
       </div>
       <div className="absolute h-[651px] left-[calc(50%+16px)] rounded-[10px] top-[5751px] w-[521px]" data-name="POSTER 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img8s.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img8s.nikonekt} />
       </div>
       <div className="absolute h-[651px] left-[calc(50%-538px)] rounded-[10px] top-[6436px] w-[521px]" data-name="JANABI">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img9s.nikonekt } />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img9s.nikonekt } />
       </div>
       <div className="absolute h-[651px] left-[calc(50%+16px)] rounded-[10px] top-[6436px] w-[521px]" data-name="Artboard 1 copy">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img10s.nikonekt} />
+        <video
+          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" 
+          src={vid2s.nikonekt} 
+          controls={false}
+          autoPlay
+          muted
+          loop
+          />
       </div>
       <div className="absolute h-[614px] left-1/2 rounded-[10px] top-[7121px] translate-x-[-50%] w-[1076px]" data-name="NIKO WALL MOCKUP 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img11s.nikonekt} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img11s.nikonekt} />
       </div>
       <Group427319867 />
       <Group427319868 />

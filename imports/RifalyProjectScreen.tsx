@@ -1,6 +1,7 @@
-import { footerLogos, img10s, img1s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s } from "lib/imageHelper";
+import { footerLogos, img10s, img1s, img2s, img3s, img4s, img5s, img6s, img7s, img8s, img9s, portfolioHeroes, vid1s, vid2s, vid3s } from "lib/imageHelper";
 import svgPaths from "./svg-yldyi8p9b2";
 import  Link  from "next/link";
+import Image from "next/image";
 
 function Group427319858() {
   return (
@@ -51,14 +52,14 @@ function Group427319878() {
 function Group427319867() {
   return (
     <Link href={'/projects/sag'}>
-    <div className="absolute contents left-1/2 -translate-x-1/2 top-[14638px]">
-    <div className="absolute bg-[#191919] h-[142px] left-[945px] rounded-br-[5px] rounded-tr-[5px] top-[14638px] w-[313px]" />
-    <div className="absolute h-[142px] left-[860px] rounded-[5px] top-[14638px] w-[198px]" data-name="sag thumbnail">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]">
-        <img alt="" className="absolute h-[100.11%] left-[-13.94%] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.rifaly} />
+    <div className="absolute contents left-1/2 -translate-x-1/2 top-[14638px]" style={{ left: "calc(50% + 100px)", transform: "translateX(-50%)" }}>
+    <div className="absolute bg-[#191919] h-[142px] rounded-br-[5px] rounded-tr-[5px] top-[14638px] w-[313px] " style={{ left: "calc(50% + 350px)", transform: "translateX(-50%)"}}/>
+    <div className="absolute h-[142px] rounded-[5px] top-[14638px] w-[198px]" data-name="sag thumbnail" style={{ left: "calc(50% + 200px)", transform: "translateX(-50%)"}}>
+      <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[5px]" >
+        <Image fill  alt="" className="absolute h-[100.11%] left-[0] max-w-none top-[-0.05%] w-[127.58%]" src={footerLogos.rifaly} />
       </div>
     </div>
-    <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[14695px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 300px)", transform: "translateX(-50%)" }}>
+    <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[40px] text-nowrap top-[14695px] tracking-[0.8px] uppercase z-10" style={{ left: "calc(50% + 410px)", transform: "translateX(-50%)" }}>
       <p className="leading-[36px] whitespace-pre">next</p>
     </div>
     </div>
@@ -90,7 +91,7 @@ function Group427319857() {
   return (
     <div className="contents pointer-events-auto sticky top-0">
       <div className="absolute h-[84px] left-1/2 top-[86px] translate-x-[-50%] w-[1440px]">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img1s.rifaly} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img1s.rifaly} />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#606060] text-[20px] text-nowrap text-right top-[118px] translate-x-[-100%]" style={{ left: "calc(50% + 654px)" }}>
         <p className="leading-[normal] whitespace-pre">NEWS AND CONTENT</p>
@@ -162,7 +163,7 @@ export default function RifalyProjectScreen() {
         </p>
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#7f7f7f] text-[26px] top-[3854px] w-[842px] left-1/2 -translate-x-1/2">
-        <p className="leading-[normal] mb-0">Our research aimed to understand how African consumers and professionals access content, what frustrates them, and where opportunities exist. We combined competitive analysis, surveys, and persona development to guide the design direction.</p>
+        <p className="leading-[normal] mb-0 text-[25px]">Our research aimed to understand how African consumers and professionals access content, what frustrates them, and where opportunities exist. We combined competitive analysis, surveys, and persona development to guide the design direction.</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <ul className="css-ed5n1g mb-0">
           <li className="leading-[normal] list-disc ms-[39px]">
@@ -232,7 +233,7 @@ export default function RifalyProjectScreen() {
       
       <div className="absolute h-[1122px] left-1/2 rounded-[10px] top-[6834px] translate-x-[-50%] w-[1076px]" data-name="Rifaly flow 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[110.94%] left-[-2.75%] max-w-none top-[-6.23%] w-[105.49%] rounded-[10px]" src={img4s.rifaly}/>
+          <Image fill  alt="" className="absolute h-[110.94%] left-[-2.75%] max-w-none top-[-6.23%] w-[105.49%] rounded-[10px]" src={img4s.rifaly}/>
         </div>
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#7f7f7f] text-[26px] top-[5640px] w-[842px] left-1/2 -translate-x-1/2">
@@ -271,19 +272,21 @@ export default function RifalyProjectScreen() {
       </div>
       <div className="absolute h-[335px] left-1/2 -translate-x-1/2 top-[6223px] w-[842px]" data-name="rif flowAsset 3-8 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[92.54%] left-[3.5%] max-w-none top-[7.46%] w-[93.01%]" src={img3s.rifaly} />
+          <Image fill  alt="" className="absolute h-[92.54%] left-[3.5%] max-w-none top-[7.46%] w-[93.01%]" src={img3s.rifaly} />
         </div>
       </div>
-      <div className="absolute h-[1589px] left-0 top-[0px] w-[100%]" data-name="rifaly mockkk 1">
-        <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-          <div className="absolute inset-0 overflow-hidden">
-            <img alt="" className="absolute h-full left-[0] max-w-none top-0 w-[100.90%]" src={portfolioHeroes.rifaly} />
-          </div>
-          <div className="absolute inset-0" />
+      <div className="absolute h-[1587px] left-1/2 translate-x-[-50%] top-[0] w-[1840px] overflow-hidden">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1800px] h-[1540px]">
+          <Image 
+            fill  
+            alt="" 
+            className="absolute inset-0 w-full h-full object-cover" 
+            src={portfolioHeroes.rifaly} 
+          />
         </div>
       </div>
-      <div className="absolute h-[1589px] left-0 top-[86px] w-[1440px] pointer-events-none">
-        <div className="absolute bottom-0 left-0 right-0 h-[40%] bg-gradient-to-t from-[#111111] via-[#111111]/90 to-transparent" />
+      <div className="absolute h-[1589px] left-1/2 translate-x-[-50%] top-[86px] w-[1840px] pointer-events-none">
+        <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-[#111111] via-[#111111]/90 to-transparent" />
       </div>
       <div className="absolute font-['Neue_Brucke:Regular',_sans-serif] leading-[0] left-1/2 not-italic text-[48px] text-center text-white top-[1234px] tracking-[0.96px] translate-x-[-50%] uppercase w-[766px]">
         <p className="leading-[50px]">Rifaly curates and shares Africa's most intriguing stories with a global audience.</p>
@@ -291,17 +294,17 @@ export default function RifalyProjectScreen() {
       <Group427319878 />
       <div className="absolute h-[340px] left-1/2 rounded-[10px] top-[2106px] translate-x-[-50%] w-[840px]" data-name="ideation 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-[122.27%] left-[-1.91%] max-w-none top-[-7.94%] w-[103.82%]" src={img1s.rifaly} />
+          <Image fill  alt="" className="absolute h-[122.27%] left-[-1.91%] max-w-none top-[-7.94%] w-[103.82%]" src={img1s.rifaly} />
         </div>
       </div>
       <div className="absolute h-[554px] left-1/2 -translate-x-1/2 rounded-[10px] top-[3156px] w-[1076px]" data-name="Personas 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img2s.rifaly} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[10px] size-full" src={img2s.rifaly} />
       </div>
       <div className="absolute h-[1473px] left-1/2 -translate-x-1/2 top-[8564px] w-[1056px]" data-name="Onboarding 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img5s.rifaly} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img5s.rifaly} />
       </div>
       <div className="absolute h-[1476px] left-1/2 -translate-x-1/2 top-[10307px] w-[1057px]" data-name="INAPP SHOTS 1">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img6s.rifaly} />
+        <Image fill  alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={img6s.rifaly} />
       </div>
       <div className="absolute h-[284px] left-1/2 -translate-x-1/2 top-[12029px] w-[559px]" data-name="Mini Player 1">
         <video 
@@ -314,17 +317,24 @@ export default function RifalyProjectScreen() {
           />
       </div>
       <div className="absolute h-[720px] left-1/2 -translate-x-1/2 rounded-[20px] top-[12617px] w-[1056px]" data-name="package checkout 1">
-        <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[20px]">
-          <div className="absolute bg-[#0d2c3c] inset-0 rounded-[20px]" />
-          <div className="absolute inset-0 overflow-hidden rounded-[20px]">
-            <img alt="" className="absolute h-[80.69%] left-[35.28%] max-w-none top-[9.58%] w-[29.44%]" src={img8s.rifaly} />
-          </div>
-        </div>
+            <video 
+              className="absolute inset-0 left-[0] max-w-none top-[0] size-full rounded-[20px]" 
+              src={vid2s.rifaly} 
+              controls={false}
+              autoPlay
+              loop
+              muted
+              />
       </div>
-      <div className="absolute h-[463px] left-1/2 top-[13681px] translate-x-[-50%] w-[1056px]" data-name="thumbnail posters 1">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[175.73%] left-[-25.37%] max-w-none top-[-37.86%] w-[150.74%]" src={img10s.rifaly} />
-        </div>
+      <div className="absolute h-[463px] left-1/2 top-[13681px] translate-x-[-50%] w-[856px]" data-name="thumbnail posters 1">
+          <video 
+            className="absolute h-[175.73%] left-[-25.37%] max-w-none top-[-37.86%] w-[150.74%]" 
+            src={vid3s.rifaly} 
+            controls={false}
+            autoPlay
+            loop
+            muted
+            />
       </div>
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] left-1/2 -translate-x-1/2 not-italic text-[#008cff] text-[26px] text-nowrap top-[14488px] w-[840px]">
         <p className="leading-[normal] whitespace-pre">
@@ -338,7 +348,6 @@ export default function RifalyProjectScreen() {
         </div>
       </div>
       <Group427319865 />
-      <div className="absolute bg-[#111111] bottom-[-13977px] h-[86px] left-1/2 translate-x-[-50%] w-[1440px]" />
       <div className="absolute font-['IBM_Plex_Mono:Regular',_sans-serif] leading-[0] not-italic text-[#bfbfbf] text-[20px] text-nowrap top-[14951px]" style={{ left: "calc(50% + 499px)" }}>
         <p className="leading-[normal] whitespace-pre">© 2025. V 2.0</p>
       </div>
