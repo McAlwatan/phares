@@ -41,21 +41,6 @@ export default function RifalyProject({ onBack }: RifalyProjectProps) {
     };
   }, []);
 
-  // Add click handler to back button
-  useEffect(() => {
-    const handleBackClick = (e: Event) => {
-      const target = e.target as HTMLElement;
-      if (target.closest('button') && target.textContent?.includes('back to top')) {
-        e.preventDefault();
-        e.stopPropagation();
-        onBack();
-      }
-    };
-
-    document.addEventListener('click', handleBackClick);
-    return () => document.removeEventListener('click', handleBackClick);
-  }, [onBack]);
-
   // Force black background styling
   useEffect(() => {
     document.body.style.backgroundColor = '#111111';
@@ -112,10 +97,11 @@ export default function RifalyProject({ onBack }: RifalyProjectProps) {
           max-height: 100% !important;
         }
         
-        /* Adjust content to account for fixed navigation */
+        /* Adjust content to account for fixed navigation 
         [data-name="RIFALY PROJECT SCREEN"] {
-          padding-top: 170px !important; /* 86px + 84px for both nav bars */
+          padding-top: 170px !important;
         }
+        */
         
         /* Fix spacing issues */
         [data-name*="PROJECT SCREEN"] > div {

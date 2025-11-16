@@ -29,5 +29,6 @@ next-env.d.ts
 # Ignore images and videos for now
 /public/images
 /public/videos
+/public/images 2
 *.mp4
 *.mov

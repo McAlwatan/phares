@@ -116,10 +116,11 @@ export default function NikonektProject({ onBack, onProjectClick }: NikonektProj
           object-fit: cover !important;
         }
         
-        /* Adjust content to account for fixed navigation */
+        /* Adjust content to account for fixed navigation
         [data-name*="PROJECT SCREEN"] {
           padding-top: 170px !important;
         }
+        */
         
         /* Fix spacing issues */
         [data-name*="PROJECT SCREEN"] > div {

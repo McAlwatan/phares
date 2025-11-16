@@ -1,12 +1,13 @@
 import { useEffect } from "react";
-import TequilaIslandScreen from "../imports/TequilaIslandScreen";
+import SitesProjectScreen from "../imports/SitesProjectScreen";
 import ProjectNavigation from "./ProjectNavigation";
+import RandomProjectScreen from "imports/RandomProjectScreen";
 
-interface TequilaProjectProps {
+interface RandomProjectProps {
   onBack: () => void;
 }
 
-export default function TequilaProject({ onBack }: TequilaProjectProps) {
+export default function RandomProject({ onBack }: RandomProjectProps) {
   useEffect(() => {
     // Scroll to top when component mounts
     window.scrollTo(0, 0);
@@ -62,7 +63,7 @@ export default function TequilaProject({ onBack }: TequilaProjectProps) {
         .bg-white {
           background-color: #111111 !important;
         }
-        [data-name*="TEQUILA"] {
+        [data-name*="SITES"] {
           background-color: #111111 !important;
         }
         
@@ -84,11 +85,10 @@ export default function TequilaProject({ onBack }: TequilaProjectProps) {
           object-fit: cover !important;
         }
         
-        /* Adjust content to account for fixed navigation 
+        /* Adjust content to account for fixed navigation */
         [data-name*="PROJECT SCREEN"] {
           padding-top: 170px !important;
         }
-        */
         
         /* Fix spacing issues */
         [data-name*="PROJECT SCREEN"] > div {
@@ -96,18 +96,18 @@ export default function TequilaProject({ onBack }: TequilaProjectProps) {
         }
         
         /* Remove extra space at bottom by hiding elements with negative bottom positioning */
-        [data-name*="TEQUILA"] .absolute[style*="bottom-[-"] {
+        [data-name*="SITES"] .absolute[style*="bottom-[-"] {
           display: none !important;
         }
       `}</style>
       
       <ProjectNavigation 
-        projectName="TEQUILA ISLAND" 
-        projectCategory="ENTERTAINMENT"
+        projectName="RANDOM" 
+        projectCategory="MIXED PROJECTS"
         onBack={onBack}
       />
       
-      <TequilaIslandScreen />
+      <RandomProjectScreen />
     </div>
   );
 }

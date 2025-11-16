@@ -69,14 +69,14 @@ export default function PasswordPopup({ isOpen, onClose, projectName }: Password
                 type="button"
                 variant="outline"
                 onClick={handleClose}
-                className="bg-transparent border-[#3d3d3d] text-[#bfbfbf] hover:bg-[#202020] font-mono"
+                className="bg-transparent border-[#3d3d3d] text-[#bfbfbf] hover:bg-[#3d3d3d] font-mono cursor-pointer"
                 disabled={isSubmitting}
               >
                 Cancel
               </Button>
               <Button
                 type="submit"
-                className="bg-[#008cff] hover:bg-[#0066cc] text-white font-mono"
+                className="bg-[#008cff] hover:bg-[#0066cc] text-white font-mono cursor-pointer"
                 disabled={isSubmitting || !password.trim()}
               >
                 {isSubmitting ? "Checking..." : "Access"}

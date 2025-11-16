@@ -24,6 +24,8 @@ export default function HomePage() {
       router.push('/projects/nikonekt');
     } else if (projectName === 'sites') {
       router.push('/projects/sites');
+    } else if (projectName === 'random') {
+      router.push('/projects/random');
     } else if (projectName === 'sound') {
       router.push('/sound');
     } else if (projectName === 'bolt-password') {

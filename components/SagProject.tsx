@@ -41,21 +41,6 @@ export default function SagProject({ onBack }: SagProjectProps) {
     };
   }, []);
 
-  // Add click handler to back button
-  useEffect(() => {
-    const handleBackClick = (e: Event) => {
-      const target = e.target as HTMLElement;
-      if (target.closest('button') && target.textContent?.includes('back to top')) {
-        e.preventDefault();
-        e.stopPropagation();
-        onBack();
-      }
-    };
-
-    document.addEventListener('click', handleBackClick);
-    return () => document.removeEventListener('click', handleBackClick);
-  }, [onBack]);
-
   // Force black background styling
   useEffect(() => {
     document.body.style.backgroundColor = '#111111';
@@ -99,10 +84,11 @@ export default function SagProject({ onBack }: SagProjectProps) {
           object-fit: cover !important;
         }
         
-        /* Adjust content to account for fixed navigation */
+        /* Adjust content to account for fixed navigation 
         [data-name*="PROJECT SCREEN"] {
           padding-top: 170px !important;
         }
+        */
         
         /* Fix spacing issues */
         [data-name*="PROJECT SCREEN"] > div {

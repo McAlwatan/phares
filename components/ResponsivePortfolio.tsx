@@ -113,13 +113,13 @@ export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfo
       }} />
 
       {/* Main Content */}
-      <main className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-6 sm:py-8 max-w-[1440px] mx-auto pt-[100px] sm:pt-[30px] md:pt-[50px]">
+      <main className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-6 sm:py-8 max-w-[1440px] mx-auto pt-[50px] sm:pt-[30px] md:pt-[50px]">
         {/* About Me Collapsible Section */}
         <section className="mb-12 sm:mb-14 md:mb-16">
-          <div className="flex justify-between w-full t-0">
+          <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row justify-between w-full t-0">
             <button 
               onClick={scrollToAbout}
-              className="flex items-center gap-2 mb-4 sm:mb-6 transition-colors hover:text-[#00a6ff] focus:outline-none focus:ring-2 focus:ring-[#008cff] focus:ring-offset-2 focus:ring-offset-[#111111] rounded-md px-2 py-1"
+              className="flex items-center gap-2 mb-4 sm:mb-6 transition-colors hover:text-[#00a6ff] cursor-pointer rounded-md px-2 py-1"
               aria-label="Scroll to about me section"
             >
               <span className="font-['IBM_Plex_Mono',_monospace] text-[#008cff] text-lg sm:text-xl lg:text-2xl uppercase">
@@ -163,7 +163,7 @@ export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfo
           {/* ABOUT ME Title Row with Let's chat and Experience on the right */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6 sm:mb-8 gap-4 sm:gap-6">
             {/* Left: ABOUT ME */}
-            <h2 className="font-['Neue_Brucke',_sans-serif] text-[#bfbfbf] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-wider">
+            <h2 className="font-['Neue_Brucke',_sans-serif] text-[#bfbfbf] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-wider outline-none cursor-pointer">
               about me
             </h2>
           </div>
@@ -253,7 +253,7 @@ export default function ResponsivePortfolio({ onProjectClick }: ResponsivePortfo
       <footer className="border-t border-[#262626] px-4 sm:px-6 md:px-8 lg:px-16 py-4 sm:py-5 md:py-6">
         <div className="flex flex-col sm:flex-row justify-between items-center max-w-[1440px] mx-auto gap-3 sm:gap-0">
           <button 
-            className="text-[#bfbfbf] hover:text-[#008cff] transition-colors p-2 rounded-md hover:bg-[#202020] focus:outline-none focus:ring-2 focus:ring-[#008cff]"
+            className="text-[#bfbfbf] hover:text-[#008cff] transition-colors p-2 rounded-md hover:bg-[#202020] cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#008cff]"
             aria-label="Scroll to top"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
